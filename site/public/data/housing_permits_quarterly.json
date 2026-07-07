@@ -1,0 +1,62 @@
+[
+  {
+    "metric": "housing_units_permitted",
+    "period": "2026-Q1",
+    "geography": "Arizona",
+    "value": 10851,
+    "unit": "housing units",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv",
+    "source_url": "https://fred.stlouisfed.org/series/AZBPPRIV"
+  },
+  {
+    "metric": "housing_units_permitted",
+    "period": "2026-Q1",
+    "geography": "Phoenix-Mesa-Chandler, AZ MSA",
+    "value": 8381,
+    "unit": "housing units",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv",
+    "source_url": "https://fred.stlouisfed.org/series/PHOE004BPPRIV"
+  },
+  {
+    "metric": "housing_units_permitted",
+    "period": "2026-Q1",
+    "geography": "Tucson, AZ MSA",
+    "value": 1086,
+    "unit": "housing units",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv",
+    "source_url": "https://fred.stlouisfed.org/series/TUCS004BPPRIV"
+  },
+  {
+    "metric": "housing_units_permitted",
+    "period": "2026-Q2",
+    "geography": "Arizona",
+    "value": 6385,
+    "unit": "housing units",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv",
+    "source_url": "https://fred.stlouisfed.org/series/AZBPPRIV"
+  },
+  {
+    "metric": "housing_units_permitted",
+    "period": "2026-Q2",
+    "geography": "Phoenix-Mesa-Chandler, AZ MSA",
+    "value": 4774,
+    "unit": "housing units",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv",
+    "source_url": "https://fred.stlouisfed.org/series/PHOE004BPPRIV"
+  },
+  {
+    "metric": "housing_units_permitted",
+    "period": "2026-Q2",
+    "geography": "Tucson, AZ MSA",
+    "value": 746,
+    "unit": "housing units",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv",
+    "source_url": "https://fred.stlouisfed.org/series/TUCS004BPPRIV"
+  }
+]

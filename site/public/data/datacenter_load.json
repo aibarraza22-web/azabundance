@@ -1,0 +1,24 @@
+[
+  {
+    "metric": "datacenter_load_mw",
+    "period": "2026-Q2",
+    "geography": "Arizona",
+    "status": "operating",
+    "value": "2000",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/datacenters/2026-07-07/datacenter_load_curated.csv",
+    "source_url": "https://docket.images.azcc.gov/E000052626.pdf",
+    "method_note": "Seed value from ACC April 2026 public materials; verify against docket before launch."
+  },
+  {
+    "metric": "datacenter_load_mw",
+    "period": "2026-Q2",
+    "geography": "Arizona",
+    "status": "planned",
+    "value": "10600",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/datacenters/2026-07-07/datacenter_load_curated.csv",
+    "source_url": "https://docket.images.azcc.gov/E000052626.pdf",
+    "method_note": "Seed value from ACC April 2026 public materials; verify against docket before launch."
+  }
+]

@@ -1,0 +1,3 @@
+metric,period,value_mw,status,geography,source_url,retrieved_date,method_note
+Data center load,2026-Q2,2000,operating,Arizona,https://docket.images.azcc.gov/E000052626.pdf,2026-07-07,"Seed value from ACC April 2026 public materials; verify against docket before launch."
+Data center load,2026-Q2,10600,planned,Arizona,https://docket.images.azcc.gov/E000052626.pdf,2026-07-07,"Seed value from ACC April 2026 public materials; verify against docket before launch."

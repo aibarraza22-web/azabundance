@@ -1,0 +1,137 @@
+[
+  {
+    "metric": "housing_units_permitted",
+    "period": "2026-01",
+    "geography": "Arizona",
+    "value": "2859",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv",
+    "source_url": "https://fred.stlouisfed.org/series/AZBPPRIV"
+  },
+  {
+    "metric": "housing_units_permitted",
+    "period": "2026-02",
+    "geography": "Arizona",
+    "value": "3859",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv",
+    "source_url": "https://fred.stlouisfed.org/series/AZBPPRIV"
+  },
+  {
+    "metric": "housing_units_permitted",
+    "period": "2026-03",
+    "geography": "Arizona",
+    "value": "4133",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv",
+    "source_url": "https://fred.stlouisfed.org/series/AZBPPRIV"
+  },
+  {
+    "metric": "housing_units_permitted",
+    "period": "2026-04",
+    "geography": "Arizona",
+    "value": "3424",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv",
+    "source_url": "https://fred.stlouisfed.org/series/AZBPPRIV"
+  },
+  {
+    "metric": "housing_units_permitted",
+    "period": "2026-05",
+    "geography": "Arizona",
+    "value": "2961",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv",
+    "source_url": "https://fred.stlouisfed.org/series/AZBPPRIV"
+  },
+  {
+    "metric": "housing_units_permitted",
+    "period": "2026-01",
+    "geography": "Phoenix-Mesa-Chandler, AZ MSA",
+    "value": "2114",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv",
+    "source_url": "https://fred.stlouisfed.org/series/PHOE004BPPRIV"
+  },
+  {
+    "metric": "housing_units_permitted",
+    "period": "2026-02",
+    "geography": "Phoenix-Mesa-Chandler, AZ MSA",
+    "value": "3004",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv",
+    "source_url": "https://fred.stlouisfed.org/series/PHOE004BPPRIV"
+  },
+  {
+    "metric": "housing_units_permitted",
+    "period": "2026-03",
+    "geography": "Phoenix-Mesa-Chandler, AZ MSA",
+    "value": "3263",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv",
+    "source_url": "https://fred.stlouisfed.org/series/PHOE004BPPRIV"
+  },
+  {
+    "metric": "housing_units_permitted",
+    "period": "2026-04",
+    "geography": "Phoenix-Mesa-Chandler, AZ MSA",
+    "value": "2519",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv",
+    "source_url": "https://fred.stlouisfed.org/series/PHOE004BPPRIV"
+  },
+  {
+    "metric": "housing_units_permitted",
+    "period": "2026-05",
+    "geography": "Phoenix-Mesa-Chandler, AZ MSA",
+    "value": "2255",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv",
+    "source_url": "https://fred.stlouisfed.org/series/PHOE004BPPRIV"
+  },
+  {
+    "metric": "housing_units_permitted",
+    "period": "2026-01",
+    "geography": "Tucson, AZ MSA",
+    "value": "326",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv",
+    "source_url": "https://fred.stlouisfed.org/series/TUCS004BPPRIV"
+  },
+  {
+    "metric": "housing_units_permitted",
+    "period": "2026-02",
+    "geography": "Tucson, AZ MSA",
+    "value": "396",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv",
+    "source_url": "https://fred.stlouisfed.org/series/TUCS004BPPRIV"
+  },
+  {
+    "metric": "housing_units_permitted",
+    "period": "2026-03",
+    "geography": "Tucson, AZ MSA",
+    "value": "364",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv",
+    "source_url": "https://fred.stlouisfed.org/series/TUCS004BPPRIV"
+  },
+  {
+    "metric": "housing_units_permitted",
+    "period": "2026-04",
+    "geography": "Tucson, AZ MSA",
+    "value": "427",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv",
+    "source_url": "https://fred.stlouisfed.org/series/TUCS004BPPRIV"
+  },
+  {
+    "metric": "housing_units_permitted",
+    "period": "2026-05",
+    "geography": "Tucson, AZ MSA",
+    "value": "319",
+    "vintage_date": "2026-07-07",
+    "source_file": "data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv",
+    "source_url": "https://fred.stlouisfed.org/series/TUCS004BPPRIV"
+  }
+]

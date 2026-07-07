@@ -1,0 +1,9 @@
+geography,method_note,metric,period,source_file,source_url,status,unit,value,vintage_date
+Arizona,,housing_units_permitted,2026-Q1,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,https://fred.stlouisfed.org/series/AZBPPRIV,,housing units,10851,2026-07-07
+"Phoenix-Mesa-Chandler, AZ MSA",,housing_units_permitted,2026-Q1,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,https://fred.stlouisfed.org/series/PHOE004BPPRIV,,housing units,8381,2026-07-07
+"Tucson, AZ MSA",,housing_units_permitted,2026-Q1,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,https://fred.stlouisfed.org/series/TUCS004BPPRIV,,housing units,1086,2026-07-07
+Arizona,,housing_units_permitted,2026-Q2,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,https://fred.stlouisfed.org/series/AZBPPRIV,,housing units,6385,2026-07-07
+"Phoenix-Mesa-Chandler, AZ MSA",,housing_units_permitted,2026-Q2,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,https://fred.stlouisfed.org/series/PHOE004BPPRIV,,housing units,4774,2026-07-07
+"Tucson, AZ MSA",,housing_units_permitted,2026-Q2,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,https://fred.stlouisfed.org/series/TUCS004BPPRIV,,housing units,746,2026-07-07
+Arizona,Seed value from ACC April 2026 public materials; verify against docket before launch.,datacenter_load_mw,2026-Q2,data/raw/datacenters/2026-07-07/datacenter_load_curated.csv,https://docket.images.azcc.gov/E000052626.pdf,operating,,2000,2026-07-07
+Arizona,Seed value from ACC April 2026 public materials; verify against docket before launch.,datacenter_load_mw,2026-Q2,data/raw/datacenters/2026-07-07/datacenter_load_curated.csv,https://docket.images.azcc.gov/E000052626.pdf,planned,,10600,2026-07-07

@@ -1,0 +1,12 @@
+{
+  "buildCommand": "make pipeline && cd site && npm ci && npm run build",
+  "outputDirectory": "site/dist",
+  "installCommand": "cd site && npm ci",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    }
+  ]
+}

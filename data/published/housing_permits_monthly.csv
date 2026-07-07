@@ -1,0 +1,16 @@
+geography,metric,period,source_file,source_url,value,vintage_date
+Arizona,housing_units_permitted,2026-01,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,https://fred.stlouisfed.org/series/AZBPPRIV,2859,2026-07-07
+Arizona,housing_units_permitted,2026-02,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,https://fred.stlouisfed.org/series/AZBPPRIV,3859,2026-07-07
+Arizona,housing_units_permitted,2026-03,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,https://fred.stlouisfed.org/series/AZBPPRIV,4133,2026-07-07
+Arizona,housing_units_permitted,2026-04,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,https://fred.stlouisfed.org/series/AZBPPRIV,3424,2026-07-07
+Arizona,housing_units_permitted,2026-05,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,https://fred.stlouisfed.org/series/AZBPPRIV,2961,2026-07-07
+"Phoenix-Mesa-Chandler, AZ MSA",housing_units_permitted,2026-01,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,https://fred.stlouisfed.org/series/PHOE004BPPRIV,2114,2026-07-07
+"Phoenix-Mesa-Chandler, AZ MSA",housing_units_permitted,2026-02,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,https://fred.stlouisfed.org/series/PHOE004BPPRIV,3004,2026-07-07
+"Phoenix-Mesa-Chandler, AZ MSA",housing_units_permitted,2026-03,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,https://fred.stlouisfed.org/series/PHOE004BPPRIV,3263,2026-07-07
+"Phoenix-Mesa-Chandler, AZ MSA",housing_units_permitted,2026-04,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,https://fred.stlouisfed.org/series/PHOE004BPPRIV,2519,2026-07-07
+"Phoenix-Mesa-Chandler, AZ MSA",housing_units_permitted,2026-05,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,https://fred.stlouisfed.org/series/PHOE004BPPRIV,2255,2026-07-07
+"Tucson, AZ MSA",housing_units_permitted,2026-01,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,https://fred.stlouisfed.org/series/TUCS004BPPRIV,326,2026-07-07
+"Tucson, AZ MSA",housing_units_permitted,2026-02,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,https://fred.stlouisfed.org/series/TUCS004BPPRIV,396,2026-07-07
+"Tucson, AZ MSA",housing_units_permitted,2026-03,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,https://fred.stlouisfed.org/series/TUCS004BPPRIV,364,2026-07-07
+"Tucson, AZ MSA",housing_units_permitted,2026-04,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,https://fred.stlouisfed.org/series/TUCS004BPPRIV,427,2026-07-07
+"Tucson, AZ MSA",housing_units_permitted,2026-05,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,https://fred.stlouisfed.org/series/TUCS004BPPRIV,319,2026-07-07
