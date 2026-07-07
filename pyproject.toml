@@ -14,5 +14,9 @@ dependencies = [
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]
 
+[tool.setuptools.packages.find]
+include = ["pipeline*"]
+exclude = ["data*", "site*", "notebooks*", "tests*"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
