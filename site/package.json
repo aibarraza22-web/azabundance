@@ -1,0 +1,13 @@
+{
+  "name": "azabundance-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/static-build.mjs --watch",
+    "build": "node scripts/static-build.mjs",
+    "check": "node scripts/check-pages.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
