@@ -1,13 +1,12 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import DummyChart from '../../components/DummyChart.astro';
 ---
 <BaseLayout title="Scoreboard | Arizona Abundance Index">
-  <h1>Scoreboard scaffold</h1>
-  <p class="lede">This Phase 0 page uses dummy data only. Real metrics will not be charted until source files are fetched, snapshotted, parsed, and validated.</p>
+  <h1>Arizona Abundance Index</h1>
+  <p class="lede">Current component data. No composite index is published until at least eight quarters of validated history exist.</p>
   <section class="card">
-    <h2>Phase 0 placeholder metric</h2>
-    <DummyChart />
-    <p><a href="/data/placeholder_metric.json">Download placeholder JSON</a> · <a href="/methodology/">Methodology</a></p>
+    <h2>Real data components</h2>
+    <p>The production static build reads pipeline-generated JSON from <code>site/public/data/index_components.json</code> and renders the current housing-permits and data-center-load cards.</p>
+    <p><a href="/data/index_components.json">Download component JSON</a> · <a href="/methodology/">Methodology</a></p>
   </section>
 </BaseLayout>

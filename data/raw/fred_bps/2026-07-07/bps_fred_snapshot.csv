@@ -1,0 +1,16 @@
+series_id,geography,period,value,units,seasonally_adjusted,source_url,retrieved_date,source_updated
+AZBPPRIV,Arizona,2026-01,2859,Units,No,https://fred.stlouisfed.org/series/AZBPPRIV,2026-07-07,2026-06-24
+AZBPPRIV,Arizona,2026-02,3859,Units,No,https://fred.stlouisfed.org/series/AZBPPRIV,2026-07-07,2026-06-24
+AZBPPRIV,Arizona,2026-03,4133,Units,No,https://fred.stlouisfed.org/series/AZBPPRIV,2026-07-07,2026-06-24
+AZBPPRIV,Arizona,2026-04,3424,Units,No,https://fred.stlouisfed.org/series/AZBPPRIV,2026-07-07,2026-06-24
+AZBPPRIV,Arizona,2026-05,2961,Units,No,https://fred.stlouisfed.org/series/AZBPPRIV,2026-07-07,2026-06-24
+PHOE004BPPRIV,"Phoenix-Mesa-Chandler, AZ MSA",2026-01,2114,Units,No,https://fred.stlouisfed.org/series/PHOE004BPPRIV,2026-07-07,2026-06-24
+PHOE004BPPRIV,"Phoenix-Mesa-Chandler, AZ MSA",2026-02,3004,Units,No,https://fred.stlouisfed.org/series/PHOE004BPPRIV,2026-07-07,2026-06-24
+PHOE004BPPRIV,"Phoenix-Mesa-Chandler, AZ MSA",2026-03,3263,Units,No,https://fred.stlouisfed.org/series/PHOE004BPPRIV,2026-07-07,2026-06-24
+PHOE004BPPRIV,"Phoenix-Mesa-Chandler, AZ MSA",2026-04,2519,Units,No,https://fred.stlouisfed.org/series/PHOE004BPPRIV,2026-07-07,2026-06-24
+PHOE004BPPRIV,"Phoenix-Mesa-Chandler, AZ MSA",2026-05,2255,Units,No,https://fred.stlouisfed.org/series/PHOE004BPPRIV,2026-07-07,2026-06-24
+TUCS004BPPRIV,"Tucson, AZ MSA",2026-01,326,Units,No,https://fred.stlouisfed.org/series/TUCS004BPPRIV,2026-07-07,2026-06-24
+TUCS004BPPRIV,"Tucson, AZ MSA",2026-02,396,Units,No,https://fred.stlouisfed.org/series/TUCS004BPPRIV,2026-07-07,2026-06-24
+TUCS004BPPRIV,"Tucson, AZ MSA",2026-03,364,Units,No,https://fred.stlouisfed.org/series/TUCS004BPPRIV,2026-07-07,2026-06-24
+TUCS004BPPRIV,"Tucson, AZ MSA",2026-04,427,Units,No,https://fred.stlouisfed.org/series/TUCS004BPPRIV,2026-07-07,2026-06-24
+TUCS004BPPRIV,"Tucson, AZ MSA",2026-05,319,Units,No,https://fred.stlouisfed.org/series/TUCS004BPPRIV,2026-07-07,2026-06-24
