@@ -1,0 +1,26 @@
+[
+  {
+    "period": "2026-Q1",
+    "metric": "Phase 0 placeholder",
+    "value": 100,
+    "status": "DUMMY"
+  },
+  {
+    "period": "2026-Q2",
+    "metric": "Phase 0 placeholder",
+    "value": 112,
+    "status": "DUMMY"
+  },
+  {
+    "period": "2026-Q3",
+    "metric": "Phase 0 placeholder",
+    "value": 108,
+    "status": "DUMMY"
+  },
+  {
+    "period": "2026-Q4",
+    "metric": "Phase 0 placeholder",
+    "value": 121,
+    "status": "DUMMY"
+  }
+]
