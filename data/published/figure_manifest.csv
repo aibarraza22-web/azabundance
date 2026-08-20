@@ -1,9 +1,0 @@
-figure_id,geography,metric,period,source_file,value
-component-001,Arizona,housing_units_permitted,2026-Q1,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,10851
-component-002,"Phoenix-Mesa-Chandler, AZ MSA",housing_units_permitted,2026-Q1,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,8381
-component-003,"Tucson, AZ MSA",housing_units_permitted,2026-Q1,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,1086
-component-004,Arizona,housing_units_permitted,2026-Q2,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,6385
-component-005,"Phoenix-Mesa-Chandler, AZ MSA",housing_units_permitted,2026-Q2,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,4774
-component-006,"Tucson, AZ MSA",housing_units_permitted,2026-Q2,data/raw/fred_bps/2026-07-07/bps_fred_snapshot.csv,746
-component-007,Arizona,datacenter_load_mw,2026-Q2,data/raw/datacenters/2026-07-07/datacenter_load_curated.csv,2000
-component-008,Arizona,datacenter_load_mw,2026-Q2,data/raw/datacenters/2026-07-07/datacenter_load_curated.csv,10600

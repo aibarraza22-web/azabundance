@@ -1,17 +1,11 @@
-import { existsSync } from 'node:fs';
-
-const required = [
-  'src/pages/index.astro',
-  'src/pages/index/index.astro',
-  'src/pages/methodology/index.astro',
-  'src/pages/data/index.astro',
-  'src/pages/essays/index.astro',
-  'src/pages/about/index.astro',
-];
-
-const missing = required.filter((path) => !existsSync(new URL(`../${path}`, import.meta.url)));
-if (missing.length) {
-  console.error(`Missing required pages: ${missing.join(', ')}`);
-  process.exit(1);
+import { existsSync, readFileSync } from 'node:fs';
+const required = ['dist/index.html', 'dist/style.css', 'dist/app.js'];
+for (const path of required) {
+  if (!existsSync(path)) throw new Error(`Missing ${path}`);
 }
-console.log('Required Astro pages are present.');
+const html = readFileSync('dist/index.html', 'utf8');
+const js = readFileSync('dist/app.js', 'utf8');
+for (const label of ['Bottled water production', 'CBS News', 'Poll analysis']) {
+  if (!html.includes(label) && !js.includes(label)) throw new Error(`Missing required content: ${label}`);
+}
+console.log('All Water Guess pages and required content passed.');
