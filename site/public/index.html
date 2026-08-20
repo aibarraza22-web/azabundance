@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#073d33">
+  <title>Water Guess — How close can you get?</title>
+  <meta name="description" content="Guess how much water America uses each year, then compare and analyze poll results.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Water Guess home"><span class="drop">◒</span> WATER<span>GUESS</span></a>
+    <nav aria-label="Main navigation">
+      <button class="nav-button active" data-view="poll">Take the poll</button>
+      <button class="nav-button" data-view="results">Results <span id="result-count" class="count">0</span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="poll-view" class="view">
+      <div class="hero">
+        <p class="eyebrow">The great American water guess</p>
+        <h1>How much water<br>do we really use?</h1>
+        <p class="intro">Move each slider to guess the annual water use in the U.S. There are no trick questions—just a few surprising answers.</p>
+        <div class="hero-meta"><span>14 questions</span><i></i><span>about 3 minutes</span><i></i><span>billions of gallons</span></div>
+      </div>
+
+      <form id="poll-form">
+        <div class="form-head">
+          <label for="name">Your name <span>(for the results board)</span></label>
+          <input id="name" maxlength="32" required placeholder="e.g. Jamie">
+        </div>
+        <div id="questions" class="questions"></div>
+        <div class="submit-wrap">
+          <p>Ready to see how your water intuition stacks up?</p>
+          <button class="primary" type="submit">Lock in my guesses <span>→</span></button>
+        </div>
+      </form>
+    </section>
+
+    <section id="results-view" class="view" hidden>
+      <div class="results-hero">
+        <div><p class="eyebrow">Poll analysis</p><h1>What did<br>everyone guess?</h1></div>
+        <p id="results-deck">Submit a poll or add a friend's result link to begin comparing water intuition.</p>
+      </div>
+      <div id="empty-results" class="empty">
+        <span class="empty-drop">◒</span><h2>No guesses yet</h2><p>Take the poll first, then invite other people to join.</p>
+        <button class="primary" data-go-poll>Take the poll</button>
+      </div>
+      <div id="analysis" hidden>
+        <div id="stats" class="stats"></div>
+        <section class="panel share-panel">
+          <div><p class="kicker">Collect responses</p><h2>Bring your people in.</h2><p>Share the poll, then paste the result link they send back. Results stay private in this browser.</p></div>
+          <div class="share-actions"><button id="share-poll" class="primary">Share this poll</button><button id="copy-poll" class="secondary">Copy poll link</button></div>
+          <form id="import-form"><label for="import-link">Add a result link</label><div><input id="import-link" placeholder="Paste a Water Guess result link"><button class="secondary">Add result</button></div><small id="import-message" role="status"></small></form>
+        </section>
+        <section class="panel">
+          <div class="section-title"><div><p class="kicker">The real ranking</p><h2>Where the water goes</h2></div><p>Ordered from most to least annual water use.</p></div>
+          <div id="ranking" class="ranking"></div>
+        </section>
+        <section class="panel">
+          <div class="section-title"><div><p class="kicker">Group readout</p><h2>Guess accuracy</h2></div><p>Median guesses compared with the reported estimate.</p></div>
+          <div id="accuracy" class="accuracy"></div>
+        </section>
+        <section class="panel people-panel"><p class="kicker">Responses</p><div class="section-title"><h2>Who's weighed in</h2><button id="clear-results" class="text-button">Clear all</button></div><div id="people"></div></section>
+      </div>
+    </section>
+  </main>
+
+  <footer><p>Figures are annual estimates in billions of gallons. Data centers include on-site water and water used to generate electricity; other figures reflect on-site use.</p><p>Data visualization and estimates: <a href="https://www.cbsnews.com/" target="_blank" rel="noreferrer">CBS News</a>. Figures span studies and government reports published 2015–2026 and show relative scale.</p></footer>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="/app.js" defer></script>
+</body>
+</html>
